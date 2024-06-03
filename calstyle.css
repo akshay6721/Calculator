@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    text-align: end;
+    border: 2px solid rgb(255, 0, 0);
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 23px;
+    font-family: sans-serif;
+    height: 60px;
+    width: 70px;
+    font-style: bold;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 13px;
+}
+
+button:hover {
+    background-color: thistle;
+    color: black;
+    font-size: 25px;
+    transition: all;
+    transition-duration: 800ms;
+}
+
+.calculator {
+    background-color: black;
+    border-radius: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.Last {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: fuchsia;
+    font-size: 18px;
+}
