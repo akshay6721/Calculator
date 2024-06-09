@@ -8,6 +8,7 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="calstyle.css" />
   </head>
+  <script src="operations.js"></script>
   
   <body bgcolor="Blueviolet">
     <div class="container">
@@ -53,29 +54,5 @@
         </div>
       </div>
     </div>
-    <script>
-      let screen = document.getElementById("screen");
-      buttons = document.querySelectorAll("button");
-      let screenValue = "";
-      for (item of buttons) {
-        item.addEventListener("click", (e) => {
-          buttonText = e.target.innerText;
-          console.log("Button is text", buttonText);
-          if (buttonText == "x") {
-            buttonText = "*";
-            screenValue = "";
-            screen.value = screenValue;
-          } else if (buttonText == "C") {
-            screenValue = "";
-            screen.value = screenValue;
-          } else if (buttonText == "=") {
-            screen.value = eval(screenValue);
-          } else {
-            screenValue += buttonText;
-            screen.value = screenValue;
-          }
-        });
-      }
-    </script>
   </body>
 </html>
