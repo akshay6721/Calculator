@@ -18,6 +18,8 @@ input {
     font-size: 23px;
     padding: 10px;
     border-radius: 15px;
+    height: 10vh;
+    width: 18vw;
 }
 
 button {
